@@ -1,0 +1,54 @@
+body{
+	background: #000
+	}
+	.card{
+	border: none;
+	height: 320px
+	}
+	.forms-inputs{
+	position: relative
+	}
+	.forms-inputs span{
+	position: absolute;
+	top:-18px;
+	left: 10px;
+	background-color: #fff;
+	padding: 5px 10px;
+	font-size: 15px
+	}
+	.forms-inputs input{
+	height: 50px;
+	border: 2px solid #eee
+	}
+	.forms-inputs input:focus{
+	box-shadow: none;
+	outline: none;
+	border: 2px solid #000
+	}
+	.btn{
+	height: 50px
+	}
+	.success-data{
+	display: flex;
+	flex-direction: column
+	}
+	.bxs-badge-check{
+	font-size: 90px
+	}
+	footer {
+  background-color: #FFA500; /* Footer background color */
+  color: white; /* Footer text color */
+  padding: 20px 0; /* Add space above and below the footer content */
+}
+
+/* Center align text in the footer */
+footer p {
+  text-align: center;
+  margin: 0;
+}
+
+/* Style the strong text in the footer (e.g., the username) */
+footer strong {
+  font-size: 18px;
+  color: white;
+}
